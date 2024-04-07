@@ -65,7 +65,8 @@ Paste in the following code and save:
           POSTGRES_HOSTNAME: postgres
           POSTGRES_PASSWORD: 'ChangeMe'
           POSTGRES_USER: guacamole_user
-    	  WEBAPP_CONTEXT: ROOT #Changes URL from <IP>/guacamole/ to just <IP>
+          TOTP_ENABLED: 'true'
+          WEBAPP_CONTEXT: ROOT #Changes URL from <IP>/guacamole/ to just <IP>
         image: guacamole/guacamole
         links:
         - guacd
