@@ -1,5 +1,5 @@
 
-Hello! Welcome to my *Apache Guacamole Docker Compose* repository! The purpose of this project is to add new, up to date install instructions for Apache Guacamole installation to the internet. The current offerings out there are either out of date, horribly formatted, overly clunky (like the Apache docs themselves), or just broken. It is my hope this walkthrough will be easy to understand and well formatted. Without further ado, let's get started! Please note: This was tested in an Ubuntu LXC container hosted by proxmox.
+Hello! Welcome to my *Apache Guacamole Docker Compose* repository! The purpose of this project is to add new, up to date install instructions for Apache Guacamole installation to the internet. The current offerings out there are either out of date, horribly formatted, overly clunky (like the Apache docs themselves), or just broken. It is my hope this walkthrough will be easy to understand and well formatted. Without further ado, let's get started! Please note: This was tested in an Ubuntu LXC container hosted by Proxmox.
 
 ## 1: Install Docker and Docker Compose.
 
