@@ -5,9 +5,7 @@ Hello! Welcome to my *Apache Guacamole: Docker Compose* repository! The purpose 
 
  You can find the instructions to do so here: https://docs.docker.com/engine/install/ 
 
-If you are using Ubuntu, you can use the setup script (dockersetup.sh) in this repo. After running the script, run the following command:
-    
-    systemctl enable docker && systemctl start docker
+If you are using Ubuntu, you can use the setup script (dockersetup.sh) in this repo.
 
 ## 2: Setting up directories
 
