@@ -8,4 +8,6 @@ echo \
 
 sudo apt-get update && 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && 
-echo setup complete
+echo setup complete, enabling and starting services &&
+sudo systemctl enable docker && sudo systemctl start docker &&
+echo script finished.
