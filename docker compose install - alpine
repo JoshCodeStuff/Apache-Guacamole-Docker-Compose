@@ -1,0 +1,1 @@
+apk add --update docker docker-cli-compose openrc && rc-update add docker boot && service docker start
