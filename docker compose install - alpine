@@ -1,1 +1,3 @@
+Before running, ensure your `/etc/apk/repositories` contains the community repo.
+
 apk add --update nano docker docker-cli-compose openrc && rc-update add docker boot && service docker start
